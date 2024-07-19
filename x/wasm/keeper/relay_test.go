@@ -6,8 +6,8 @@ import (
 	"math"
 	"testing"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
@@ -15,8 +15,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper/wasmtesting"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 func TestOnOpenChannel(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 	"github.com/cosmos/gogoproto/proto"
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
 	"github.com/stretchr/testify/assert"
@@ -22,8 +22,8 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/testdata"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper/testdata"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 func TestMaskReflectCustomQuery(t *testing.T) {

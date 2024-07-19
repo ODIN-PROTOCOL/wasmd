@@ -76,10 +76,10 @@ import (
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	wasmappparams "github.com/CosmWasm/wasmd/app/params"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/testdata"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	wasmappparams "github.com/ODIN-PROTOCOL/wasmd/app/params"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper/testdata"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper/wasmtesting"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 var moduleBasics = module.NewBasicManager(

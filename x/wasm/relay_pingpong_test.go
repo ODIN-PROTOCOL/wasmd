@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	clienttypes "github.com/cosmos/ibc-go/v8/modules/core/02-client/types" //nolint:staticcheck
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
@@ -16,11 +16,11 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	app2 "github.com/CosmWasm/wasmd/app"
-	wasmibctesting "github.com/CosmWasm/wasmd/x/wasm/ibctesting"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
+	app2 "github.com/ODIN-PROTOCOL/wasmd/app"
+	wasmibctesting "github.com/ODIN-PROTOCOL/wasmd/x/wasm/ibctesting"
+	wasmkeeper "github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper/wasmtesting"
+	wasmtypes "github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 const (

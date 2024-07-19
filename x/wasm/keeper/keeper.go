@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 
 	"cosmossdk.io/collections"
 	corestoretypes "cosmossdk.io/core/store"
@@ -30,8 +30,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	vestingexported "github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
 
-	"github.com/CosmWasm/wasmd/x/wasm/ioutils"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/ioutils"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 // contractMemoryLimit is the memory limit of each contract execution (in MiB)

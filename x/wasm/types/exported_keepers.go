@@ -3,7 +3,7 @@ package types
 import (
 	"context"
 
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 	capabilitytypes "github.com/cosmos/ibc-go/modules/capability/types"
 	ibcexported "github.com/cosmos/ibc-go/v8/modules/core/exported"
 

@@ -5,14 +5,14 @@ package keeper
 import (
 	"path/filepath"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
 
 	"cosmossdk.io/collections"
 	corestoretypes "cosmossdk.io/core/store"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 // NewKeeper creates a new contract Keeper instance

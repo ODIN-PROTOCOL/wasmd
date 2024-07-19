@@ -3,14 +3,14 @@ package wasm_test
 import (
 	"testing"
 
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
 	ibctesting "github.com/cosmos/ibc-go/v8/testing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	wasmibctesting "github.com/CosmWasm/wasmd/x/wasm/ibctesting"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
+	wasmibctesting "github.com/ODIN-PROTOCOL/wasmd/x/wasm/ibctesting"
+	wasmkeeper "github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper"
 )
 
 func TestIBCReflectContract(t *testing.T) {

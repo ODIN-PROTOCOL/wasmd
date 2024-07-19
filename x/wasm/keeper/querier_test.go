@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
@@ -25,8 +25,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/query"
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper/wasmtesting"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 func TestQueryAllContractState(t *testing.T) {

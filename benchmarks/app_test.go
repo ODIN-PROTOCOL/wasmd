@@ -28,9 +28,9 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/CosmWasm/wasmd/app"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	wasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/app"
+	wasmkeeper "github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper"
+	wasmtypes "github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 func setup(db dbm.DB, withGenesis bool, invCheckPeriod uint, opts ...wasmkeeper.Option) (*app.WasmApp, app.GenesisState) { //nolint:unparam

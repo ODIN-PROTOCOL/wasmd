@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/cosmos/gogoproto/proto"
@@ -32,10 +32,10 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/CosmWasm/wasmd/app"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/wasmtesting"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/app"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper/wasmtesting"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 func TestIBCQuerier(t *testing.T) {

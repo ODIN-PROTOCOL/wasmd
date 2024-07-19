@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	tmtypes "github.com/cometbft/cometbft/types"
 	"github.com/stretchr/testify/assert"
@@ -20,9 +20,9 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/CosmWasm/wasmd/app"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/app"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 func TestSnapshotter(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cast"
@@ -25,11 +25,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/CosmWasm/wasmd/x/wasm/client/cli"
-	"github.com/CosmWasm/wasmd/x/wasm/exported"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/simulation"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/client/cli"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/exported"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/simulation"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 var (
@@ -280,7 +280,7 @@ func getExpectedLibwasmVersion() string {
 		panic("can't read build info")
 	}
 	for _, d := range buildInfo.Deps {
-		if d.Path != "github.com/CosmWasm/wasmvm/v2" {
+		if d.Path != "github.com/ODIN-PROTOCOL/wasmvm/v2" {
 			continue
 		}
 		if d.Replace != nil {
@@ -292,7 +292,7 @@ func getExpectedLibwasmVersion() string {
 }
 
 // CheckLibwasmVersion ensures that the libwasmvm version loaded at runtime matches the version
-// of the github.com/CosmWasm/wasmvm dependency in go.mod. This us useful when dealing with
+// of the github.com/ODIN-PROTOCOL/wasmvm dependency in go.mod. This us useful when dealing with
 // shared libraries that are copied or moved from their default location, e.g. when building the node
 // on one machine and deploying it to other machines.
 //

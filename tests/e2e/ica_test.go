@@ -22,8 +22,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/address"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/CosmWasm/wasmd/app"
-	wasmibctesting "github.com/CosmWasm/wasmd/x/wasm/ibctesting"
+	"github.com/ODIN-PROTOCOL/wasmd/app"
+	wasmibctesting "github.com/ODIN-PROTOCOL/wasmd/x/wasm/ibctesting"
 )
 
 func TestICA(t *testing.T) {

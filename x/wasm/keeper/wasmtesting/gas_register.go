@@ -1,7 +1,7 @@
 package wasmtesting
 
 import (
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 
 	storetypes "cosmossdk.io/store/types"
 )

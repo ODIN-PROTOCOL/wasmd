@@ -10,7 +10,7 @@ import (
 	"os"
 	"strconv"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
@@ -18,7 +18,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 func GetQueryCmd() *cobra.Command {

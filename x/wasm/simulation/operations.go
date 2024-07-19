@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"os"
 
-	wasmvmtypes "github.com/CosmWasm/wasmvm/v2/types"
+	wasmvmtypes "github.com/ODIN-PROTOCOL/wasmvm/v2/types"
 
 	errorsmod "cosmossdk.io/errors"
 
@@ -18,10 +18,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/CosmWasm/wasmd/app/params"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
-	"github.com/CosmWasm/wasmd/x/wasm/keeper/testdata"
-	"github.com/CosmWasm/wasmd/x/wasm/types"
+	"github.com/ODIN-PROTOCOL/wasmd/app/params"
+	wasmkeeper "github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper/testdata"
+	"github.com/ODIN-PROTOCOL/wasmd/x/wasm/types"
 )
 
 // Simulation operation weights constants

@@ -45,8 +45,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/CosmWasm/wasmd/app"
-	wasmkeeper "github.com/CosmWasm/wasmd/x/wasm/keeper"
+	"github.com/ODIN-PROTOCOL/wasmd/app"
+	wasmkeeper "github.com/ODIN-PROTOCOL/wasmd/x/wasm/keeper"
 )
 
 var MaxAccounts = 10
