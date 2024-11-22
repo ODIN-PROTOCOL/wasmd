@@ -422,7 +422,7 @@ func TestInstantiate(t *testing.T) {
 
 	gasAfter := ctx.GasMeter().GasConsumed()
 	if types.EnableGasVerification {
-		require.Equal(t, uint64(0x1bc8f), gasAfter-gasBefore)
+		require.Equal(t, uint64(0x1bca5), gasAfter-gasBefore)
 	}
 
 	// ensure it is stored properly
